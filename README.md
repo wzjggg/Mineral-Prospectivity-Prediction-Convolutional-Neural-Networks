@@ -20,3 +20,6 @@ AlexNet_main.py: Train the AlexNet model and verify the performance of the AlexN
 VggNet.py: VggNet structure of CNN.
 
 VggNet_main.py: Train the VggNet model and verify the performance of the VggNet model.
+
+错误更正：第四行代码改为：args = parser.parse_args(args=[])
+
